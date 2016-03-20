@@ -19,8 +19,8 @@ git clone https://github.com/DerekMarcinyshyn/plesk-s3-backup
 ### Cronjobs
 
 ```
-0 1 * * * /root/plesk-s3-backup/daily.sh { add-parameters} > /dev/null 2>&1
-0 1 1 * * /root/plesk-s3-backup/monthly.sh { add-parameters } > /dev/null 2>&1
+0 1 * * * /root/plesk-s3-backup/daily.sh > /dev/null 2>&1
+0 1 1 * * /root/plesk-s3-backup/monthly.sh > /dev/null 2>&1
 ```
 
 ## Restore
